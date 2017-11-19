@@ -6,4 +6,5 @@
 
 - Change the **Reset** text colour.
 - You can choose between a _flashing_ or an _over-crosshair_ notification message.
+- You can change or disable a **Reset** sound effect.
 ![Notification Preview](http://i.imgur.com/ZZO7R2f.png)
