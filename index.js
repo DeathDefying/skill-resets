@@ -2,12 +2,12 @@ const SHOW_SYSTEM_RESET_MESSAGE = false;
 const RESET_FONT_COLOR = '#FF4500'; // https://www.google.com/search?q=colour+picker
 const FLASHING_NOTIFICATION = false;
 const SOUND_ID = 3028;
-const PLAY_SOUND = true;
+const PLAY_SOUND = false;
 
 module.exports = function SkillResets(dispatch) {
 	let model;
 
-	dispatch.hook('S_LOGIN', 1, event => ({ model } = event));
+	dispatch.hook('S_LOGIN', 9, event => {model = event.templateId};
 
 	const showMessage = message => {
 		dispatch.toClient('S_DUNGEON_EVENT_MESSAGE', 1, {
