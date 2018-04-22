@@ -6,4 +6,4 @@
 
 - You can enable or disable a **Reset** sound effect. (requires S_PLAY_SOUND opcode, disabled by default)
 
-[![Gyfcat Link](https://i.imgur.com/RJCvteE.png)](https://gfycat.com/ValidPertinentBlackfish)
+[![Gyfcat Link](https://thumbs.gfycat.com/ValidPertinentBlackfish-size_restricted.gif)](https://gfycat.com/ValidPertinentBlackfish)
