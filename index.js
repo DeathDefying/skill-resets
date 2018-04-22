@@ -1,6 +1,4 @@
 const SHOW_SYSTEM_RESET_MESSAGE = false;
-const RESET_FONT_COLOR = '#FF4500'; // https://www.google.com/search?q=colour+picker
-const FLASHING_NOTIFICATION = false;
 const SOUND_ID = 3028;
 const PLAY_SOUND = false;
 
@@ -12,7 +10,7 @@ module.exports = function SkillResets(dispatch) {
 	const showMessage = message => {
 		dispatch.toClient('S_DUNGEON_EVENT_MESSAGE', 1, {
 			message,
-			unk1: FLASHING_NOTIFICATION ? 70 : 2,
+			unk1: 41,
 			unk2: 0,
 			unk3: 0
 		});
@@ -26,7 +24,7 @@ module.exports = function SkillResets(dispatch) {
 
 	dispatch.hook('S_CREST_MESSAGE', 2, event => {
 		if (event.type === 6) {
-			showMessage(`<img src="img://skill__0__${model}__${event.skill}" width="48" height="48" vspace="-20"/><font size="24" color="${RESET_FONT_COLOR}">&nbsp;Reset</font>`);
+			showMessage(`<img src="img://skill__0__${model}__${event.skill}" vspace="-12"/><font>&nbsp;Reset</font>`);
 			if (PLAY_SOUND) playSound(SOUND_ID);
 			if (!SHOW_SYSTEM_RESET_MESSAGE) return false;
 		}
