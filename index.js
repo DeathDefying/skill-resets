@@ -8,11 +8,11 @@ module.exports = function SkillResets(dispatch) {
 	dispatch.hook('S_LOGIN', 10, event => {model = event.templateId})
 
 	const showMessage = message => {
-		dispatch.toClient('S_DUNGEON_EVENT_MESSAGE', 1, {
-			message,
-			unk1: 41,
-			unk2: 0,
-			unk3: 0
+		dispatch.toClient('S_DUNGEON_EVENT_MESSAGE', 2, {
+			message: message,
+			type: 41,
+			channel: 0,
+			chat: 0
 		});
 	};
 	
