@@ -1,0 +1,12 @@
+{
+    "disableAutoUpdate": false,
+    "name": "skill-resets",
+    "author": "Mister Kay",
+    "description": "skill resets",
+    "version": "6/26/2019",
+    "options": {
+        "niceName": "skill-resets"
+    },
+    "servers": ["https://raw.githubusercontent.com/DeathDefying/skill-resets/master/"],
+    "supportUrl": "DM Yang#0966"
+}

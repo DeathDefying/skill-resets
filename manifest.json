@@ -1,0 +1,13 @@
+{
+    "files": {
+        "README.md": "d154853f00093219717a7e3871fc125855dbd7c09578acf81442ee6bbb10ef45",
+        "index.js": "dbe27d1c2c1b0b44d9e4cd4b1639d58671c1800fe8b62d10b5ee1e981d299339",
+        "module.json": "92ed4d710c977c964c3ad63007083edc3e2d5006f92866e58a583fe347a9848f"
+    },
+    "defs": {
+        "S_CREST_MESSAGE": 2,
+        "S_DUNGEON_EVENT_MESSAGE": 2,
+        "S_LOGIN": 13,
+        "S_PLAY_SOUND": 1
+    }
+}

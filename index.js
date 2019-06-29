@@ -5,7 +5,7 @@ const PLAY_SOUND = false;
 module.exports = function SkillResets(dispatch) {
 	let model;
 
-	dispatch.hook('S_LOGIN', 10, event => {model = event.templateId})
+	dispatch.hook('S_LOGIN', 13, event => {model = event.templateId})
 
 	const showMessage = message => {
 		dispatch.toClient('S_DUNGEON_EVENT_MESSAGE', 2, {
