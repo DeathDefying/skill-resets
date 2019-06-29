@@ -24,7 +24,7 @@ module.exports = function SkillResets(dispatch) {
 
 	dispatch.hook('S_CREST_MESSAGE', 2, event => {
 		if (event.type === 6) {
-			showMessage(`<img src="img://skill__0__${model}__${event.skill}" vspace="-12"/><font>&nbsp;Reset</font>`);
+			showMessage(`<img src="img://skill__0__${model}__${event.skill}" width="48" height="48" vspace="-20"/><font size="24"/><font>&nbsp;Reset</font>`);
 			if (PLAY_SOUND) playSound(SOUND_ID);
 			if (!SHOW_SYSTEM_RESET_MESSAGE) return false;
 		}

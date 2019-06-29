@@ -5,7 +5,6 @@
 > Editing the [`index.js`](https://github.com/mister-kay/skill-resets/blob/master/index.js) file let's you:
 
 - You can enable or disable a **Reset** sound effect. (requires S_PLAY_SOUND opcode, disabled by default)
+S_PLAY_SOUND = 35523
 
 [![Gyfcat Link](https://thumbs.gfycat.com/ValidPertinentBlackfish-size_restricted.gif)](https://gfycat.com/ValidPertinentBlackfish)
-
-S_PLAY_SOUND = 35523
